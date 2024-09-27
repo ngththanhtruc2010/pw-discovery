@@ -28,7 +28,7 @@ function caculateBMI(height: number, weight: number) {
 
 // Kết quả 
 const result = caculateBMI(1.63, 52);
-console.log(`- Kết quả BMI: ${result.bmi}`);
+console.log(`- Kết quả BMI: ${result.bmi.toFixed(2)}`);
 console.log(`- Phân loại: ${result.bodyType}`);
 
 
